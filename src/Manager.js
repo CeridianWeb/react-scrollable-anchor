@@ -64,8 +64,8 @@ class Manager {
     const bestAnchorId = getBestAnchorGivenScrollLocation(this.anchors, offset)
 
     if (bestAnchorId && getHash() !== bestAnchorId) {
-      this.forcedHash = true
-      updateHash(bestAnchorId, false)
+      //this.forcedHash = true
+      //updateHash(bestAnchorId, false)
     } else if (!bestAnchorId && !keepLastAnchorHash) {
       removeHash()
     }
