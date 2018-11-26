@@ -2,11 +2,7 @@
   "name": "react-scrollable-anchor",
   "version": "0.6.2",
   "description": "Provide smooth scrolling anchors in React.",
-  "main": "lib/index.js",
-  "files": [
-    "lib",
-    "README.md"
-  ],
+  "main": "src/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "build": "babel src --out-dir lib",
