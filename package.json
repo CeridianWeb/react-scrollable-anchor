@@ -10,8 +10,7 @@
     "example": "cd example && npm i; npm run start",
     "lint": "eslint src",
     "test": "mocha --compilers js:babel/register --recursive src/**/*-test.js",
-    "prepublish": "npm run clean && npm run build", 
-	"preinstall": "npm run build",
+    "prepublish": "npm run clean && npm run build"
   },
   "keywords": [
     "react",
