@@ -11,7 +11,7 @@
     "lint": "eslint src",
     "test": "mocha --compilers js:babel/register --recursive src/**/*-test.js",
     "prepublish": "npm run clean && npm run build", 
-	"preinstall": "npm run clean && npm run build",
+	"preinstall": "npm run build",
   },
   "keywords": [
     "react",
